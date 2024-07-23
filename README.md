@@ -7,4 +7,5 @@ In Unity, to do point light shadow, there are 3 methods:
 3. use fake shadow, this method is one of them;
 
 The Core idea is to draw a segment on the floor, and test if the pixel is in the shadow.
+
 The criteria is : if the pixel and the camera are on the opposite sides of each other.
